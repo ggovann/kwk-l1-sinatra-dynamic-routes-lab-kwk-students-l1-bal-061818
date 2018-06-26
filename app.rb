@@ -34,8 +34,8 @@ get '/:operation/:number1/:number2'
 @number2 = params[:number2]
 
 if add
-  answer = number1 + number2
-  elsif subtract
+    answer = number1 + number2
+     elsif subtract
   answer = number1 - number2
  elsif multiply
  answer = number1 * number2
@@ -44,6 +44,4 @@ if add
 else
   puts "unable to process"
   end
-
-
 end
